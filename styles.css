@@ -46,7 +46,12 @@ p{
     width:44px;
     height:44px;
     position: relative;
-    top:48px;
+    top:52px;
+}
+
+.circle:hover{
+    box-shadow: 0 0 35px hsl(150, 100%, 66%);
+    transform: scale(1.1, 1.1);
 }
 
 .dice{
@@ -54,3 +59,22 @@ p{
     margin:13px;
     width:18px;
 }
+
+.mobile{
+        display: none;
+}
+
+@media (max-width:512px){
+    .card{
+        width:100%;
+        margin:auto;
+    }
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+}
+
