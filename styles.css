@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    color:white;
+}
+
+p{
+    font-size: 28px;  
+    text-align: center;
+    color:hsl(193, 38%, 86%);
+    margin:30px auto;
+}
+
+.vertical{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin:auto;
+}
+
+.card{
+    background-color: hsl(217, 19%, 24%);
+    padding:30px;
+    width:70%;
+    margin:auto;
+    border-radius: 15px;
+}
+
+.card-title{
+    color:hsl(150, 100%, 66%);
+    font-weight: normal;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin:auto;
+    letter-spacing: 3px;
+}
+
+.circle{
+    margin:auto;
+    border-radius: 100%;
+    background-color: hsl(150, 100%, 66%);
+    width:44px;
+    height:44px;
+    position: relative;
+    top:48px;
+}
+
+.dice{
+    display: block;
+    margin:13px;
+    width:18px;
+}
